@@ -45,8 +45,8 @@ class MainActivity : AppCompatActivity(),ClickListener {
         recyclerView.adapter = noteAdapter
 
 
-        noteViewModel.allNotes.observe(this, Observer
-        { list ->
+        noteViewModel.allNotes.observe(this, {
+                list ->
             list?.let{
                 noteAdapter.addAllList(it)
             }
@@ -69,7 +69,7 @@ class MainActivity : AppCompatActivity(),ClickListener {
             val updatedNoteText = editText.text.toString()
 
             noteViewModel.insertNote(Note(0,updatedNoteText, currentDate))
-            Toast.makeText(this, "Item Inserted : ${editText.text.toString()}",Toast.LENGTH_SHORT).show()
+            Toast.makeText(this, "Item Inserted : ${editText.text}",Toast.LENGTH_SHORT).show()
             editText.text = null
         }
     }
