@@ -6,7 +6,6 @@ import com.example.noteapp.model.Note
 
 @Dao
 interface NoteDao {
-
     @Insert(onConflict = OnConflictStrategy.IGNORE)
     suspend fun insertNote(note: Note)
 
