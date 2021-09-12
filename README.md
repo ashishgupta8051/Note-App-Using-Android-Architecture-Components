@@ -1,2 +1,4 @@
+![Screenshot_2021-09-12-17-03-07-713_com example noteapp](https://user-images.githubusercontent.com/59619397/132985984-b87f8855-2b15-4a97-8009-a0e0eff208eb.jpg)
+![Screenshot_2021-09-12-17-03-12-931_com example noteapp](https://user-images.githubusercontent.com/59619397/132985986-826a047a-0d8b-45de-8bef-d7d3c22e39c0.jpg)
 # Note-App-Using-Android-Architecture-Components-MVVM
 In this project i have  learnt about Android architecture components like Livedata Room Database ViewModel and many more.I am going to build a Notes app. I will use Android architecture components to build this app.I have learned how to store data,Update data,Delete data and fetch all the data in SQLite database using room architecture component.In this project i will use mvvm architecture component in android and high-level design of our Android app and architecture.
